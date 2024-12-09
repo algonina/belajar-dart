@@ -1,10 +1,11 @@
+import 'dart:math';
+
 void main() {
   // deklarasi bilangan
-  int a = 11;
+  int a = 9;
   int b = 4;
 
   // pembagian
-  var pembagian = a ~/ b;
-
-  print(pembagian);
+  var pangkat = pow(a, b);
+  print(pangkat);
 }
